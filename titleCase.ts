@@ -12,4 +12,4 @@ function titleCase(str: string) {
   return arr.join(' ');
 }
 
-titleCase("I'm a little tea pot");
+titleCase("I'm a little tea pot"); // --> "I'm A Little Tea Pot"
