@@ -104,6 +104,18 @@ findLongestWord("The quick brown fox jumped over the lazy dog"); // --> 6
 
 
 
+### Find Missing Letter
+
+Find the missing letter in the passed letter range and return it.
+
+File: `findMissingLetter.ts`
+```ts
+findMissingLetter("ad"); // --> "bc"
+```
+
+
+
+
 ### Get Index To Insert
 
 Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted.
