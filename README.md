@@ -139,6 +139,17 @@ findMissingLetter("ad"); // --> "bc"
 
 
 
+### flattenArrays
+
+Flatten a nested arrays.
+
+File: `flattenArrays.ts`
+```ts
+flattenArrays([1, [2], [3, [[4]]]]); // --> [1,2,3,4]
+```
+
+
+
 
 ### Get Index To Insert
 
