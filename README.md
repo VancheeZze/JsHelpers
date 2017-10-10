@@ -49,6 +49,18 @@ containsAllLetters(["voodoo", "no"]); // --> false
 
 
 
+### Convert HTML
+
+Convert the characters &, <, >, " (double quote), and ' (apostrophe), in a string to their corresponding HTML entities.
+
+File: `convertHTML.ts`
+```ts
+convertHTML("Dolce & Gabbana"); // --> "Dolce &amp; Gabbana"
+```
+
+
+
+
 ### Convert Number To Roman
 
 Convert the given number into a roman numeral.
@@ -118,7 +130,7 @@ findLongestWord("The quick brown fox jumped over the lazy dog"); // --> 6
 
 ### Find Missing Letter
 
-Find the missing letter in the passed letter range and return it.
+Find the missing letters in the passed letter range and return it.
 
 File: `findMissingLetter.ts`
 ```ts
