@@ -272,6 +272,16 @@ truncateString("A-tisket a-tasket A green and yellow basket", 11); // --> "A-tis
 ```
 
 
+### Truth Check
+
+Check if the predicate (second argument) is truthy on all elements of a collection (first argument).
+
+File: `truthCheck.ts`
+```ts
+truthCheck([{"user": "Tinky-Winky", "sex": "male"}, {"user": "Dipsy", "sex": "male"}, {"user": "Laa-Laa", "sex": "female"}, {"user": "Po", "sex": "female"}], "sex"); // --> true
+```
+
+
 
 ### Unite Arrays Into One With Unique Values
 
