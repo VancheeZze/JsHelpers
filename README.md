@@ -93,6 +93,18 @@ factorialize(5); // --> 120
 
 
 
+### Find In Array Of Objects
+
+Looks through an array of objects (first argument) and returns an array of all objects that have matching property and value pairs (second argument).
+
+File: `whatIsInAName.ts`
+```ts
+whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" }) // --> [{ first: "Tybalt", last: "Capulet" }]
+```
+
+
+
+
 ### Find Longest Word
 
 Return the length of the longest word in the provided sentence.
@@ -245,16 +257,4 @@ Takes two or more arrays and returns a new array of unique values in the order o
 File: `uniteUnique.ts`
 ```ts
 uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]); // --> [1,3,2,5,4]
-```
-
-
-
-
-### Find In Array Of Objects
-
-Looks through an array of objects (first argument) and returns an array of all objects that have matching property and value pairs (second argument).
-
-File: `whatIsInAName.ts`
-```ts
-whatIsInAName([{ first: "Romeo", last: "Montague" }, { first: "Mercutio", last: null }, { first: "Tybalt", last: "Capulet" }], { last: "Capulet" }) // --> [{ first: "Tybalt", last: "Capulet" }]
 ```
