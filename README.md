@@ -238,6 +238,18 @@ truncateString("A-tisket a-tasket A green and yellow basket", 11); // --> "A-tis
 
 
 
+### Unite Arrays Into One With Unique Values
+
+Takes two or more arrays and returns a new array of unique values in the order of the original provided arrays.
+
+File: `uniteUnique.ts`
+```ts
+uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]); // --> [1,3,2,5,4]
+```
+
+
+
+
 ### Find In Array Of Objects
 
 Looks through an array of objects (first argument) and returns an array of all objects that have matching property and value pairs (second argument).

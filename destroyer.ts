@@ -4,7 +4,7 @@
 
 
 function destroyer(arr: any[], ...argmnts) {
-  var args = Array.prototype.slice.call(argmnts);
+  let args = Array.prototype.slice.call(argmnts);
   
   return arr.filter(function(item) {
     return !args.includes(item);
