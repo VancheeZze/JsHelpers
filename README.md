@@ -194,6 +194,17 @@ slasher([1, 2, 3], 2); // --> [3]
 
 
 
+### Spinal Case String
+
+Convert a string to spinal case. Spinal case is all-lowercase-words-joined-by-dashes.
+
+File: `spinalCase.ts`
+```ts
+spinalCase('thisIs SpinalTap'); // --> "this-is-spinal-tap"
+```
+
+
+
 ### Sum All Numbers In A Range
 
 Return the sum of two numbers in array and all numbers between them.
